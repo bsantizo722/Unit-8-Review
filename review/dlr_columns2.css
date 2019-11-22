@@ -16,5 +16,17 @@
 
 
 /* Column Styles */
+/* step 22 */
+@media screen and (min-width: 641px){
+   p{
+      column-count: 3;
+      column-gap: 20px;
+      -moz-column-rule: 1px solid black;
+      -webkit-column-rule: 1px solid black;
+      column-rule: 1px solid black;
+   }
+}
+
+
 
 

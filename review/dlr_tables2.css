@@ -40,18 +40,48 @@ table.programs caption{
 }
 
 /* Table Column Styles */
-
+/* step 14 */
+col.timecolumn{
+   column-width: 10%;
+   background-color: rgb(215, 205, 151);
+}
+/* step 15 */
+col.wDayColumns{
+   column-width: 11%;
+   background-color: rgb(236, 255, 211);
+}
+/* step 16 */
+col.wEndColumns{
+   column-width: 17%;
+   background-color: rgb(255, 231, 255);
+}
 
 
 /* Table Header Styles */
-
+/* step 17 */
+thead{
+   color: white;
+   background-color: rgb(105, 177, 60);
+}
+/* step 18 */
+thead th:first-of-type{
+   background-color: rgb(153, 86, 7);
+}
 
 
 /* Table Footer Styles */
 
+/* step 19 */
+thead th:nth-of-type(7){
+   background-color: rgb(153, 0, 153);
+}
+thead th:nth-of-type(8){
+   background-color: rgb(153, 0, 153);
+}
 
-
-
-
-
+/* step 20 */
+tfoot{
+   color: white;
+   background-color: black;
+}
 
