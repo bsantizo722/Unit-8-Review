@@ -14,12 +14,30 @@
 */
 
 /* Table Styles */
-
-
+/* step 10 */
+table.programs{
+   width: 100%;
+   border: 15px outset rgb(151, 151, 151);
+   border-collapse: collapse;
+   font-family: Arial, Verdana, sans-serif;
+}
+/* step 11 */
+table.programs tr{
+   height: 25px;
+}
+/* step 12 */
+table.programs td, table.programs th{
+   border: 1px solid gray;
+}
 
 /* Table Caption Styles */
 
-
+/* step 13 */
+table.programs caption{
+   caption-side: bottom;
+   vertical-align: center;
+   padding: 5px;
+}
 
 /* Table Column Styles */
 
